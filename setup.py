@@ -34,7 +34,7 @@ setup(
     download_url="https://pypi.org/project/tweepy/",
     packages=find_packages(),
     install_requires=[
-        "oauthlib>=3.2.0,<4",
+        "oauthlib>=3.2.0,<5",
         "requests>=2.27.0,<3",
         "requests-oauthlib>=1.2.0,<2",
     ],
@@ -45,7 +45,7 @@ setup(
         ],
         "docs": [
             "myst-parser==0.15.2",
-            "readthedocs-sphinx-search==0.1.1",
+            "readthedocs-sphinx-search==0.3.2",
             "sphinx==4.2.0",
             "sphinx-hoverxref==0.7b1",
             "sphinx-tabs==3.2.0",
